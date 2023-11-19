@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RPS.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+
+    <h1 style="font-family: 'Hylia', sans-serif;">Rock Paper Scissors Zelda Edition: Breath of the Wild</h1>
+
+    <p> <strong>Gemstone</strong> beats <strong>Master Sword</strong>, <strong>Master Sword</strong> beats <strong>Paraglider</strong>, and <strong>Paraglider</strong> beats <strong>Gemstone</strong>.</p>
+    
+    <div class="scoreboard">
+      <h2>Scoreboard</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td id="humanScore">0</td>
+            <td id="computerScore">0</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>You</th>
+            <th>Bot</th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    
+    <h2>Its dangerous to go alone! Take this.</h2>
+    <button onclick="play('Gemstone')" 
+    style="background-color: rgba(0, 150, 199, 0.9);  
+    color: black; border: none; padding: 5px 10px; 
+    text-align: center; text-decoration: none; 
+    display: inline-block; font-size: 14px; cursor: pointer;">
+        <img style="width: 74px; height: 53px; margin-right: 5px;" 
+        src="Diamond.png" alt="" />
+        <span>Gemstone</span>
+    </button>
+    <button onclick="play('Paraglider')" 
+    style="background-color: rgba(0, 150, 199, 0.9);  
+    color: black; border: none; padding: 5px 10px; 
+    text-align: center; text-decoration: none;
+     display: inline-block; font-size: 14px; cursor: pointer;">
+        <img style="width: 73px; height: 53px; margin-right: 5px;" 
+        src="Paraglider.png" alt="" />
+        <span>Paraglider</span>
+    </button>
+    <button onclick="play('MasterSword')"
+     style="background-color: rgba(0, 150, 199, 0.9); 
+      color: black; border: none; padding: 5px 10px; 
+      text-align: center; text-decoration: none; 
+      display: inline-block; font-size: 14px; cursor: pointer;">
+        <img style="width: 62px; height: 53px; margin-right: 5px;" 
+        src="MasterSword.png" alt="" />
+        <span>Master Sword</span>
+    </button>
+  
+  
+
+    
+    <div id="status"></div>
+
+<script src="RPS.js"></script>
+
+</body>
+</html>
+

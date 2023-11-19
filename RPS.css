@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Hylia';
+  src: url(HyliaSerif.ttf);
+}
+
+
+body {
+    font-family: 'Hylia';
+    font-size: 20px;
+    text-align: center;
+    background: url('HyruleBackground.png') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    margin: 3em;
+  }
+  
+  strong {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: rgba(0, 150, 199, 0.9); 
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: bold;
+  }
+
+
+  button:active {
+    background: rgba(0, 150, 199, 0.5);;
+  }
+  
+  .scoreboard {
+    width: 14em;
+    margin: auto;
+    border: 1px solid #CC5500;
+  }
+  .scoreboard h2 {
+    border-bottom: 1px solid #CC5500;
+    margin: 0;
+    padding: 10px;
+  }
+  .scoreboard table {
+    margin: 10px auto;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .scoreboard th, .scoreboard td {
+    text-align: center;
+  }
+  .scoreboard td {
+    font-size: 3em;
+    padding: 0 20px;
+  }
+  
+  #status {
+    margin-top: 20px;
+  }
+
